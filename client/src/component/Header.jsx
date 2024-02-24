@@ -34,7 +34,7 @@ const path = useLocation().pathname;
           <FaMoon />
         </Button>
         <Link to={"/signin"}>
-          <Button gradientDuoTone="purpleToBlue">Sign In</Button>
+          <Button gradientDuoTone="purpleToBlue" outline>Sign In</Button>
         </Link>
       </div>
       <Navbar.Toggle></Navbar.Toggle>
